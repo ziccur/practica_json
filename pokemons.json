@@ -1,0 +1,73 @@
+{
+    "pokémons":[
+      {
+        "id": 1,
+        "name": "Bulbasaur",
+        "tipus": "Planta",
+        "peso": "6.9 kg",
+        "altura": "0.7 m",
+        "estadistiques": {
+          "velocitat": 3,
+          "fortalesa": 3,
+          "presició": 4,
+          "resistencia": 4,
+          "salt":3
+        },
+        "moviments":[ 
+            {
+                "nom": "Placaje",
+                "descripció": "El pokémon ataca amb el seu cos",
+                "potencia": "40",
+                "contacte": "si"
+            },
+            {
+                "nom": "Latigo Cepa",
+                "descripció": "El pokémon ataca amb unes plantes",
+                "potencia": "45",
+                "contacte": "no"
+            }
+        ],
+        "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png",
+        "evolucions": [
+            {
+                "id": "2",
+                "nom": "Ivysaur",
+                "nivell": 16
+            },
+            {
+                "id": "3",
+                "nom": "Venusaur",
+                "nivell": 32
+            }
+        ]
+
+      },
+      {
+        "id": 151,
+        "nom":"Mew",
+        "tipus":"Psíquic",
+        "peso":"4.0 kg",
+        "altura":"0.4 m",
+        "estadistiques":{
+            "velocitat": 5,
+            "fortalesa": 5,
+            "presició": 5,
+            "resistencia": 5,
+            "salt":5
+        },
+        "moviments":[ 
+            {
+                "nom": "Psíquico",
+                "descripció": "El pokémon ataca amb la ment",
+                "potencia": "90",
+                "contacte": "no"
+            }
+        ],
+        "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/b/bf/Mew.png",
+        "evolucions": [
+           null
+        ]
+      }
+    ]
+    
+}
