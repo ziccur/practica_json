@@ -18,13 +18,13 @@
                 "nom": "Placaje",
                 "descripció": "El pokémon ataca amb el seu cos",
                 "potencia": "40",
-                "contacte": "si"
+                "contacte": "true"
             },
             {
                 "nom": "Latigo Cepa",
                 "descripció": "El pokémon ataca amb unes plantes",
                 "potencia": "45",
-                "contacte": "no"
+                "contacte": "false"
             }
         ],
         "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png",
@@ -60,7 +60,7 @@
                 "nom": "Psíquico",
                 "descripció": "El pokémon ataca amb la ment",
                 "potencia": "90",
-                "contacte": "no"
+                "contacte": "false"
             }
         ],
         "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/b/bf/Mew.png",
