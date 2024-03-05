@@ -6,6 +6,8 @@ import requests
 def main():
     ###################### PETICIÓ WEB ######################
     try:
+        #'https://scrapepark.org'
+        #'https://scrapepark.org/table.html'
         request = requests.get('https://scrapepark.org')
         tree = html.fromstring(request.content)
 
@@ -15,7 +17,7 @@ def main():
     ##########################################################
 
     ######################### XPATH ##########################
-    xpath = input("Escriu el input: ")
+    xpath = input("Introdueix l'expressió XPath: ")
     ##########################################################
 
     # Avalua l'expressió XPath
